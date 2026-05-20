@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Base/reset.css">
+    <link rel="stylesheet" href="/Base/variables.css">
+    <link rel="stylesheet" href="/Base/base.css">
+    <link rel="stylesheet" href="../../Responsive/responsive.css">
+    
+    <link rel="stylesheet" href="/Css/sign_up.css">
+    <link rel="stylesheet" href="/Componentes/botones.css">
+    <link rel="stylesheet" href="/Componentes/inputs.css">
+    
+</head>
+
+<body>
+
+    <main class="contenedor-registrar">
+
+        <!-- encabezado -->
+        <header class="contenedor-mostrar">
+            <h1 class="titulo-mostrar">Crear Cuenta</h1>
+            <p class="texto-mostrar">Regístrate para comenzar</p>
+        </header>
+
+        <!-- formularioo -->
+        <form class="formulario-validar" action="#" method="post">
+
+            <!-- nombre -->
+            <div class="grupo-escribir">
+
+                <label for="nombre">Nombre completo</label>
+
+                <div class="contenedor-input">
+                    <i class="fa-regular fa-user icono-mostrar"></i>
+
+                    <input type="text" id="nombre" name="nombre" class="campo-escribir" placeholder="Juan Pérez" required>
+                </div>
+            </div>
+
+            <!-- CORREO -->
+            <div class="grupo-escribir">
+
+                <label for="correo">Correo electrónico</label>
+
+                <div class="contenedor-input">
+                    <i class="fa-regular fa-envelope icono-mostrar"></i>
+
+                    <input type="email" id="correo" name="correo" class="campo-escribir" placeholder="tu@email.com" required>
+                </div>
+            </div>
+
+            <!-- CONTRASEÑA -->
+            <div class="grupo-escribir">
+
+                <label for="clave">Contraseña</label>
+
+                <div class="contenedor-input">
+                    <i class="fa-solid fa-lock icono-mostrar"></i>
+
+                    <input
+                        type="password" id="clave" name="clave" class="campo-escribir" placeholder="••••••••" required>
+
+                        <input type="checkbox" onclick="clave.type = this.checked ? 'text' : 'clave'">
+                </div>
+            </div>
+
+            <!-- confirmar -->
+            <div class="grupo-escribir">
+
+                <label for="confirmar">Confirmar contraseña</label>
+
+                <div class="contenedor-input">
+                    <i class="fa-solid fa-lock icono-mostrar"></i>
+
+                    <input type="password" id="confirmar" name="confirmar" class="campo-escribir" placeholder="••••••••" required>
+
+                    <input type="checkbox" onclick="confirmar.type = this.checked ? 'text' : 'confirmar'">
+                </div>
+            </div>
+
+            <!-- temrinos -->
+            <div class="contenedor-aceptar">
+
+                <input type="checkbox" id="aceptar" name="aceptar" class="casilla-activar" required>
+
+                <label for="aceptar">
+                    Acepto los términos y condiciones
+                </label>
+
+            </div>
+
+            <!-- boton -->
+            <button type="submit" class="boton-registrar">
+                Crear Cuenta
+            </button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>

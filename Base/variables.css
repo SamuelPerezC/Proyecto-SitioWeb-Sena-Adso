@@ -1,0 +1,30 @@
+:root {
+
+    /* COLORES PRINCIPALES*/
+
+    --color-primary: #2563EB;      /* Azul eléctrico */
+    --color-secondary: #1E3A8A;    /* Azul oscuro */
+    
+
+    /* BACKGROUNDS */
+
+    --bg-primary: #0F172A;         /* Fondo principal */
+    --bg-card: #1E293B;            /* Tarjetas */
+    --bg-navbar: rgba(30, 41, 59, 0.8);          /* navbar */
+
+    /* TEXTO */
+
+    --text-primary: #F8FAFC;       /* Blanco suave */
+    --text-secondary: #CBD5E1;     /* Gris claro */
+
+    /*BORDES*/
+
+    --border-color: #334155;       /* Azul grisáceo */
+
+    /* ESTADOS */
+
+    --hover-color: #3B82F6;        /* Azul brillante */
+
+    --error: #EF4444;              /* Rojo suave */
+    --success: #22C55E;            /* Verde elegante */
+}
